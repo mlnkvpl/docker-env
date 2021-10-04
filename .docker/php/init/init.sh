@@ -1,5 +1,3 @@
-#rm -rf /var/www/*;
-
 DIR_VENDOR="/var/www/vendor";
 DIR_NODE_MODULES="/var/www/node_modules";
 
