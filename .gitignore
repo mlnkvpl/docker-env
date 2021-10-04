@@ -1,0 +1,14 @@
+/.docker/proxy/log
+
+/.docker/redis/data
+/.docker/redis/log
+
+/.docker/mysql/data
+/.docker/mysql/log
+
+/.docker/php/config
+/.docker/php/log
+
+/.docker/.env
+
+/app
