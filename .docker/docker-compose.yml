@@ -47,6 +47,7 @@ services:
             MAIL_USERNAME: "${MAIL_USERNAME}"
             MAIL_PASSWORD: "${MAIL_PASSWORD}"
             MAIL_ENCRYPTION: "${MAIL_ENCRYPTION}"
+            APP_REPOSITORY: "${APP_REPOSITORY}"
         volumes:
             - ./../app:/var/www
             - ./php/log:/var/log
