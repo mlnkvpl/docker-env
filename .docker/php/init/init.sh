@@ -11,9 +11,12 @@ if [ -z "$(ls -A /var/www)" ]; then
     fi
 fi
 
-if [ ! -d "$DIR_VENDOR" ] || [ ! -d "$DIR_NODE_MODULES" ]; then    
-    composer install
-    npm install         
+if [ ! -d "$DIR_VENDOR" ];  then    
+    composer install       
+fi
+
+if [ ! -d "$DIR_NODE_MODULES" ]; then
+    npm install  
 fi
 
 php-fpm
